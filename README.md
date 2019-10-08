@@ -1,5 +1,8 @@
 CLI referee for UnleashTheGeek game (https://github.com/fala13/UnleashTheGeek) aimed to work with Brutaltester (https://github.com/dreignier/cg-brutaltester)
 
+# Compiled
+Just check https://github.com/fala13/UnleashTheGeek/releases
+
 # To compile
 mvn package
 
