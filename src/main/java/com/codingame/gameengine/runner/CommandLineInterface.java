@@ -47,7 +47,7 @@ public class CommandLineInterface {
 			GameResult result = (GameResult) getGameResult.get(runner);
 
 			if (cmd.hasOption("d")) {
-    			runner.setSeed(Long.valueOf(cmd.getOptionValue("d")));
+    			runner.setSeed(Long.valueOf(cmd.getOptionValue("d").replaceAll("seed=","")));
 			}
 
 			int playerCount = 0;
